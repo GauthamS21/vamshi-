@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #fff;
 }
 
 .container {
@@ -11,35 +11,22 @@ body {
   background-color: #ffffff;
   padding: 20px;
   margin-top: 2%;
-  max-width: 30%;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
+  max-width: 50%;
+  max-height: 100%;
 }
 
 @media only screen and (max-width: 900px) {
   .container {
-    background-color: red;
     max-width: 100% !important;
   }
 }
 
 /* Portrait */
 @media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
-}
-
-.jnanaheader {
-  text-align: center;
-  color: royalblue;
-  font-weight: bold;
-  max-width: 100% !important;
+  .jnanaheader {
+    text-align: center;
+    color: royalblue;
+    font-weight: bold;
+    max-width: 100% !important;
+  }
 }
