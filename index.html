@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <?!= include("login-css"); ?>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mt-2 p-4" style="text-align: center">
+        <img
+          src="https://i.ibb.co/5Ww9xMs/Logofinalsdasd.png"
+          class="rounded-circle shadow border mt-4"
+          width="100px"
+        />
+      </div>
+
+      <div class="mt-2 p-4" style="text-align: center">
+        <h6 class="jnanaheader">JNANADEEPIKA VIDHYA SAMSTHE</h6>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12 m12">
+          <input id="userid" type="text" class="validate" />
+          <label for="userid">User ID</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m12">
+          <input id="password" type="password" class="validate" />
+          <label for="password">Password</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12 m12">
+          <select id="word">
+            <option>1ST STD</option>
+          </select>
+          <label>Choose Class</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div style="text-align: center">
+          <button
+            class="btn waves-effect waves-light green"
+            id="btn"
+            type="submit"
+            name="action"
+          >
+            Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <?!= include("main-js"); ?>
+  </body>
+</html>
